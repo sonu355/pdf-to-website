@@ -1,7 +1,5 @@
 import React from 'react'
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Button from 'react-bootstrap/Button'
 
 const code = require('../assets/code.png')
 const Page4 = () => {
@@ -18,10 +16,10 @@ const Page4 = () => {
                     Build on top of core features such as forms, 
                     shopping <br /> cart, user profile, wishlist & more.
                 </span>
-                <button style={{width:'250px', margin:'20px 0 0 12px'}}>Get Started</button>
+                <button style={{width:'250px', margin:'20px 0 0 12px', border:'0.1px solid'}}>Get Started</button>
             </Row>
             <Row>
-                <img src={code}></img>
+                <img src={code} alt='/'></img>
             </Row>
         </div>
     </div>
