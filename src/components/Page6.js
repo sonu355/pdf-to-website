@@ -1,7 +1,5 @@
 import React from 'react'
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-
 
 const logo = require('../assets/newlogo.png')
 const Page6 = () => {
@@ -25,7 +23,7 @@ const Page6 = () => {
                 </span>
             </Row>
             <Row>
-                <img src={logo} style={{ width:'500px', marginRight:'130px'}}></img>
+                <img src={logo} alt='/' style={{ width:'500px', marginRight:'130px'}}></img>
             </Row>
         </div>
     </div>
