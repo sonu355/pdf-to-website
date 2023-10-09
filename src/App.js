@@ -6,6 +6,7 @@ import Page4 from "./components/Page4";
 import Page5 from "./components/Page5";
 import Page6 from "./components/Page6";
 import Page7 from "./components/Page7";
+import New from "./components/New";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Page5 />
       <Page6 />
       <Page7 />
+      <New />
     </>
   );
 }
